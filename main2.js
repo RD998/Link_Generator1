@@ -12,7 +12,7 @@ else{
     for (let j = 0; j < 48; j++) {
       identifier += allowedChars[Math.floor(Math.random() * allowedChars.length)]; // Choose a random character from allowed set
     }
-    links.add(document.getElementById("input").value + identifier);
+    links.add(document.getElementById("input").value+ "11" + identifier);
   }
 
   document.getElementById('Output').value = [...links].join("\n");
