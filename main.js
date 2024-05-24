@@ -7,8 +7,8 @@ function generate() {
     while (links.size < additionalText) {
       let identifier = "";
       
-      for (let j = 0; j < 48; j++) {
-        for (let i=0; i < 5; i++) {
+      for (let j = 0; j < 12; j++) {
+        for (let i=0; i < 4; i++) {
         identifier += allowedChars[Math.floor(Math.random() * allowedChars.length)];
       }
     identifier=identifier+"-";
