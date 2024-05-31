@@ -7,12 +7,13 @@ function generate() {
     while (links.size < additionalText) {
       let identifier = "";
       
-      for (let j = 0; j < 12; j++) {
-        for (let i=0; i < 4; i++) {
+      for (let j = 0; j < 8; j++) {
+        for (let i=0; i < 5; i++) {
         identifier += allowedChars[Math.floor(Math.random() * allowedChars.length)];
       }
     identifier=identifier+"-";
     }
+    
       links.add(document.getElementById("input").value+ "11" + identifier);
     }
 
