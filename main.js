@@ -11,10 +11,14 @@ function generate() {
         for (let i=0; i < 5; i++) {
         identifier += allowedChars[Math.floor(Math.random() * allowedChars.length)];
       }
-    identifier=identifier+"-";
+      console.log(j);
+      if (j!= 7){
+      identifier=identifier+"-";}
+
+    
     }
     
-      links.add(document.getElementById("input").value+ "11" + identifier);
+      links.add(document.getElementById("input").value+ identifier);
     }
 
 
