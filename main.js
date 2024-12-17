@@ -17,7 +17,7 @@ function generate() {
             }
         }
 
-        links.add(document.getElementById("input").value + identifier);
+        links.add(document.getElementById("input1").value + identifier);
     }
 
     const excelData = [[additionalText + ' Links'], ...Array.from(links).map(link => [link])];
